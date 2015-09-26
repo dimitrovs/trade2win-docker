@@ -25,7 +25,7 @@ WORKDIR /tmp
 RUN git clone https://github.com/stoni/ta-lib.git
 WORKDIR /tmp/ta-lib
 RUN chmod +x ./configure
-RUN ./configure
+RUN ./configure --prefix=/usr
 RUN make
 RUN make install
 
