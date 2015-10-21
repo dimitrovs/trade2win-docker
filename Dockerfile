@@ -6,7 +6,7 @@ ENV IP='0.0.0.0'
 
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get install -y curl git expect sqlite3 python-httplib2 python-dev build-essential dropbear sudo libopenblas-dev
+RUN apt-get install -y curl git expect sqlite3 python-httplib2 python-dev build-essential sudo libopenblas-dev
 RUN apt-get install -y gfortran unzip wget
 
 RUN npm cache clean
