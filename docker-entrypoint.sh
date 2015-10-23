@@ -2,7 +2,7 @@
 
 chown yo:yo -R /home/yo
 cd /home/yo/app
-sudo -u yo ./install.sh
-sudo -u yo flask/bin/python run.py &
-sudo -u yo npm install
-sudo -u yo grunt server
+sudo -E -u yo ./install.sh
+sudo -E -u yo flask/bin/python run.py &
+sudo -E -u yo npm install
+sudo -E -u yo grunt server
