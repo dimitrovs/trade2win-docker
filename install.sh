@@ -15,4 +15,5 @@ pip install flask-security
 pip install simplejson
 pip install urllib3 --upgrade
 pip install psycopg2
+pip install pika
 pip install https://github.com/dimitrovs/finamdownloader/archive/master.zip
