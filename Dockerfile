@@ -23,7 +23,6 @@ RUN npm install -g bower
 RUN mkdir /home/yo/app
 
 VOLUME /home/yo/app
-EXPOSE 22
 EXPOSE 9000
 EXPOSE 35729
 EXPOSE 5000
